@@ -15,11 +15,12 @@ body {
 
 #imagedata {
 	clear:both;
+	font-family:Verdana;
 }
 
 /* line 15, source/HTCarou.scss */
 .reveal {
-  font-family: Garamond, serif;
+  font-family: Helvetica, sans-serif;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: -0.02em;

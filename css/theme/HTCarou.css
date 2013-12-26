@@ -13,6 +13,10 @@ body {
   background-color: #111111;
 }
 
+#imagedata {
+	clear:both;
+}
+
 /* line 15, source/HTCarou.scss */
 .reveal {
   font-family: Garamond, serif;

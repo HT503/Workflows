@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>HT503</title>
+		<title>Carousel - HT503</title>
 
-		<meta name="description" content="How we organize and distribute images">
+		<meta name="description" content="for images">
 		<meta name="author" content="Ajax for HT503">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,11 +19,27 @@
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-
+		
+		<!-- For fullscreen images> -->
+		<link rel="stylesheet" href="css/fullscreen-img.css">
+		
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
+		
+		<!-- Fullscreen Image script -->
+	    <script>
+	      Reveal.initialize({
+	        ...
+	        dependencies: [
+	          // Syntax highlight for <code> elements
+	          { src: 'lib/js/fullscreen-img.js' },
+	          ...
+	        ]
+	        ...
+	      });
+	    </script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -38,49 +54,12 @@
 			<div class="slides">
 				
 				<section>
-					<h1>Data Management and Display</h1>
-						<h3>for better dead bird/stone ratio</h3>
-						<p>or, some nonsense about digital pedagogy</p>
+					<h1>HT503 Slide Carousel</h1>
+						<h3>(draft)</h3>
 						<h4>use arrows to navigate</h4>
 						<p>
 							<small> Created by <a href="http://AlexAjax.github.io/Ajax">Ajax<a/> for <a href="http://ht503.github.io/Workflows/">HT503</a> </small>
 						</p>
-				</section>
-				<section>
-					<h2> Here we set out our problems, hopes, purposes.</h2>
-					<p>(why we want to share what we've done with anyone, why someone might find it useful, etc.)</p>
-				</section>
-				<section>
-					<h2> Here we give examples, say how we got there.</h2>
-					<p>We walk through workflows for the stuff we did.</p>
-				</section>
-				<section>
-					<h2>We need to</h2>
-					<ol>
-						<li class="fragment">organize images and their meta-data</li>
-						<li class="fragment">present images to students (for studying)</li>
-						<li class="fragment">present images during in-class and online lectures (with flexibility)</li>
-					</ol>
-				</section>
-				<section>
-					<h2>Basic Workflow</h2>
-						<p class="fragment grow">Prepare images and data using Google Forms.</p>
-						<p class="fragment grow">Do some other tricks to get data into slides.</p>
-						<p class="fragment grow">Post and use.</p>
-				</section>
-				<section>
-					<h2> We want to build</h2>
-						<p class="fragment roll-in">good data sets that give us flexibility and options around different media, software, practices, etc.</p>
-						<p class="fragment roll-in">a digital slide <a href="#/6">carousel</a> for presentations</p>
-						<p class="fragment roll-in">media-rich <a href="#/13">timelines</a> for study and review</p>
-				</section>
-				<section>
-					<h1>Carousel</h1>
-					<h3>(draft)</h3>
-					<h4>use arrows to navigate</h4>
-					<p>
-						<small> Created by <a href="http://AlexAjax.github.io/Ajax">Ajax<a/> for <a href="http://ht503.github.io/Workflows/">HT503</a> </small>
-					</p>
 				</section>
 				<section>
 					<h2>Contents</h2>
@@ -95,7 +74,7 @@
 				<section>
 					<h2>Saint Jerome in his Study</h2>
 					<p>Durer,1514</p>
-					<a href="http://imgur.com/DN61F6w"><img width="425" height="600" src="http://i.imgur.com/DN61F6w.jpg" title="Hosted by imgur.com" /></a>
+					<a href="http://imgur.com/DN61F6w"><fullscreen-img src="http://i.imgur.com/DN61F6w.jpg" title="Hosted by imgur.com" /></a>
 				</section>
 				<section>
 					<h2>Julie Le Brun with a Mirror</h2>
@@ -117,20 +96,6 @@
 					<p>Ajax, 2011</p>
 					<a href="http://imgur.com/D9Xl0be"><img width="600" src="http://i.imgur.com/D9Xl0be.jpg" title="Hosted by imgur.com" /></a>
 				</section>		
-				<section>
-					<p>Here's a <a href="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuMS5SDY1emSdGRCRkxzWlduTF9oWk1GaTZ6M2RlbWc&font=PT&maptype=TERRAIN&lang=en&hash">Timeline</a> Drawn from the Image Data</p>
-					<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuMS5SDY1emSdGRCRkxzWlduTF9oWk1GaTZ6M2RlbWc&font=PT&maptype=TERRAIN&lang=en&hash_bookmark=true&height=650' width='100%' height='550' frameborder='0'></iframe>
-				</section>
-				<section>
-					<h4>timeline draft <a href="http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuMS5SDY1emSdExjOUliS3dfOFM5WnM5bFJpTFhGdFE&font=Bevan-PotanoSans&maptype=TERRAIN&lang=en&hash" >drawn from image data and past handouts</a></h4>
-					<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuMS5SDY1emSdExjOUliS3dfOFM5WnM5bFJpTFhGdFE&font=Bevan-PotanoSans&maptype=TERRAIN&lang=en&hash_bookmark=true&height=550' width='100%' height='550' frameborder='0'>
-					</iframe>
-				</section>
-				<section>
-					<h1>THE END</h1>
-					<h3>by Ajax for HT503</h3>
-				</section>
-
 			</div>
 
 		</div>

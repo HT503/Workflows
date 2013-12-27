@@ -45,7 +45,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 15px 0;
-  color: #eeeeee;
+  color: #000080;
   font-family: Helvetica, sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
@@ -63,7 +63,7 @@ body {
  *********************************************/
 /* line 50, source/HTCarou.scss */
 .reveal a:not(.image) {
-  color: #e7ad52;
+  color: #660099;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -74,7 +74,7 @@ body {
 
 /* line 59, source/HTCarou.scss */
 .reveal a:not(.image):hover {
-  color: #f3d7ac;
+  color: #005B9A;
   text-shadow: none;
   border: none;
 }

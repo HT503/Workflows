@@ -66,7 +66,7 @@ body {
  *********************************************/
 /* line 50, source/HTCarou.scss */
 .reveal a:not(.image) {
-  color: #eeeeee;
+  color: #CCFFFF;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -77,7 +77,7 @@ body {
 
 /* line 59, source/HTCarou.scss */
 .reveal a:not(.image):hover {
-  color: #005B9A;
+  color: #99FFFF;
   text-shadow: none;
   border: none;
 }
@@ -117,45 +117,45 @@ body {
 /* line 91, source/HTCarou.scss */
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #e7ad52;
+  border-right-color: #CC99FF;
 }
 
 /* line 95, source/HTCarou.scss */
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #e7ad52;
+  border-left-color: #CC99FF;
 }
 
 /* line 99, source/HTCarou.scss */
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #e7ad52;
+  border-bottom-color: #CC99FF;
 }
 
 /* line 103, source/HTCarou.scss */
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #e7ad52;
+  border-top-color: #CC99FF;
 }
 
 /* line 106, source/HTCarou.scss */
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #f3d7ac;
+  border-right-color: #CC66FF;
 }
 
 /* line 109, source/HTCarou.scss */
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #f3d7ac;
+  border-left-color: #CC66FF;
 }
 
 /* line 112, source/HTCarou.scss */
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #f3d7ac;
+  border-bottom-color: #CC66FF;
 }
 
 /* line 115, source/HTCarou.scss */
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #f3d7ac;
+  border-top-color: #CC66FF;
 }
 
 /*********************************************
@@ -181,5 +181,5 @@ body {
  *********************************************/
 /* line 135, source/HTCarou.scss */
 .reveal .slide-number {
-  color: #e7ad52;
+  color: #CCFFFF;
 }

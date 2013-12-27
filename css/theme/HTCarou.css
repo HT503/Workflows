@@ -66,7 +66,7 @@ body {
  *********************************************/
 /* line 50, source/HTCarou.scss */
 .reveal a:not(.image) {
-  color: #CCFFFF;
+  color: #9999FF;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -77,7 +77,7 @@ body {
 
 /* line 59, source/HTCarou.scss */
 .reveal a:not(.image):hover {
-  color: #99FFFF;
+  color: #9999FF;
   text-shadow: none;
   border: none;
 }
@@ -181,5 +181,5 @@ body {
  *********************************************/
 /* line 135, source/HTCarou.scss */
 .reveal .slide-number {
-  color: #CCFFFF;
+  color: #9999FF;
 }

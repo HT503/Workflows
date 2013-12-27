@@ -15,7 +15,7 @@ body {
 
 #imagedata {
 	clear:both;
-	font-family:'Carrois Gothic', sans-serif;
+	font-family: Helvetica, sans-serif;
 	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 	font-size:1em;
 	
@@ -23,7 +23,7 @@ body {
 
 /* line 15, source/HTCarou.scss */
 .reveal {
-  font-family: 'Cardo', serif;
+  font-family: 'Milonga', serif;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -48,7 +48,7 @@ body {
 .reveal h6 {
   margin: 0 0 15px 0;
   color: #ffffff;
-  font-family: 'Cardo', serif;
+  font-family: 'Milonga', serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;

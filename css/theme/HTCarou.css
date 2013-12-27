@@ -23,7 +23,7 @@ body {
 
 /* line 15, source/HTCarou.scss */
 .reveal {
-  font-family: 'Milonga', serif;
+  font-family: 'Cardo', serif;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -48,7 +48,7 @@ body {
 .reveal h6 {
   margin: 0 0 15px 0;
   color: #ffffff;
-  font-family: 'Milonga', serif;
+  font-family: 'Cardo', serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;

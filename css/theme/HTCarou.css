@@ -63,7 +63,7 @@ body {
  *********************************************/
 /* line 50, source/HTCarou.scss */
 .reveal a:not(.image) {
-  color: #660099;
+  color: #eeeeee;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;

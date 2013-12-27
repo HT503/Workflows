@@ -15,7 +15,7 @@ body {
 
 #imagedata {
 	clear:both;
-	font-family: Georgia, sans-serif;
+	font-family: Georgia, serif;
 	text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 	font-size:.9em;
 	
@@ -23,7 +23,7 @@ body {
 
 /* line 15, source/HTCarou.scss */
 .reveal {
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, serif;
   font-size: 20px;
   font-weight: normal;
   letter-spacing: -0.02em;
